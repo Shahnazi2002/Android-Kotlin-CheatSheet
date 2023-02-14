@@ -9,3 +9,12 @@ create a new layout resource file in layout
 
 - Design the layout of items:
 design resource and set its height to wrap content
+
+- Enable View Binding:
+https://github.com/Shahnazi2002/Android-Kotlin-Samples/blob/main/ViewBinding.kt
+
+- Set id for recycler view:
+android:id="@+id/recyclerView"
+
+- Set layout manager of recycler view in MainActivity.kt:
+binding.recyclerView.layoutManager = LinearLayoutManager(this)
