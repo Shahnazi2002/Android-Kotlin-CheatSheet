@@ -20,3 +20,6 @@ android:id="@+id/recyclerView"
 
 - Set layout manager of recycler view in MainActivity.kt:
 binding.recyclerView.layoutManager = LinearLayoutManager(this)
+
+- Create adapter class file:
+for example MyAdapter.kt
