@@ -1,0 +1,11 @@
+- Declaring dependency:
+implementation("androidx.recyclerview:recyclerview:1.2.1")
+
+- Add RecyclerView to activity:
+for example activity_main.xml
+
+- Create elements layout:
+create a new layout resource file in layout
+
+- Design the layout of items:
+design resource and set its height to wrap content
