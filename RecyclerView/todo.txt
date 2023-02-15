@@ -1,22 +1,11 @@
-""Not yet complete""
-
 - Declaring dependency:
 implementation("androidx.recyclerview:recyclerview:1.2.1")
 
 - Add RecyclerView to activity:
-for example activity_main.xml
+for example in activity_main.xml
 
 - Create elements layout:
-create a new layout resource file in layout
-
-- Design the layout of items:
-design resource and set its height to wrap content
-
-- Enable View Binding:
-https://github.com/Shahnazi2002/Android-Kotlin-Samples/blob/main/ViewBinding.kt
-
-- Set id for recycler view:
-android:id="@+id/recyclerView"
+create a new layout resource file in layout and design it
 
 - Set layout manager of recycler view in MainActivity.kt:
 binding.recyclerView.layoutManager = LinearLayoutManager(this)
