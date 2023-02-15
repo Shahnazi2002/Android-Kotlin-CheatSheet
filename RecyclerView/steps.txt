@@ -23,3 +23,6 @@ binding.recyclerView.layoutManager = LinearLayoutManager(this)
 
 - Create adapter class file:
 for example MyAdapter.kt
+
+- Create data class:
+for example DataClass.kt
