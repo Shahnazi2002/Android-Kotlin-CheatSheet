@@ -9,7 +9,7 @@ android {
 }
 
 
-// Using View Binding in Activities
+// Using View Binding in Activities:
 
 class MainActivity : AppCompatActivity() {
     
@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 }
 
 
-// Using View Binding in Dialogs
+// Using View Binding in Dialogs:
 
 fun showDialog() {
     val dialog: DialogBinding = DialogBinding.inflate(LayoutInflater.from(this))
@@ -35,3 +35,8 @@ fun showDialog() {
     
     alertDialog.show()
 }
+
+
+// Using View Binding in RecyclerView Adapter:
+
+https://github.com/Shahnazi2002/Android-Kotlin-Samples/blob/main/RecyclerView/MyAdapter.kt
