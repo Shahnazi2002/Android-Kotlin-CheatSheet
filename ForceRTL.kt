@@ -1,4 +1,4 @@
-// https://stackoverflow.com/a/74772405/18139991
+https://stackoverflow.com/a/74772405/18139991
 
 package ir.example.persianapp
 
