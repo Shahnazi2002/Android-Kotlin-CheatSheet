@@ -12,6 +12,9 @@ dependencies {
 
 
 // Create a package for database files and add this files:
-// New "Data class" for example: MyData
-// New "Interface" for example: MyDao
-// New "Abstract class" for example: MyDatabase
+// New "Data class" for example:
+data class NotesData(var title: String, var count: Int)
+// New "Interface" for example:
+interface Dao {}
+// New "Abstract class" for example:
+abstract class NotesDatabase {}
