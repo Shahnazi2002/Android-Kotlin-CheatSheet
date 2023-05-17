@@ -6,11 +6,11 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 
 @Database(entities = [WorkoutData::class], version = 1)
-abstract class MyDatabase : RoomDatabase() {
+abstract class NotesDatabase : RoomDatabase() {
     abstract fun getDao(): Dao
 
     fun buildDatabase(context: Context) {
-        Room.databaseBuilder(context.applicationContext, MyDatabase::class.java, "data.db")
+        Room.databaseBuilder(context.applicationContext, NotesDatabase::class.java, "data.db")
             .allowMainThreadQueries()
             .build()
     }
